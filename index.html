@@ -6,57 +6,63 @@
     <title>IPTV Client Support</title>
     <style>
         body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             text-align: center;
-            margin: 20px;
+            margin: 0;
             line-height: 1.6;
-            background-color: #ffff00;
-            color: #000000;
-            border: 5px solid #000000;
-            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            padding: 40px 20px;
+            min-height: 100vh;
         }
         h1 {
-            color: #ff0000;
-            font-size: 3em;
+            color: #ffffff;
+            font-size: 2.5em;
             text-transform: uppercase;
-            -webkit-text-stroke: 1px #000000;
-            text-shadow: 2px 2px #000000;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
+            font-weight: 700;
         }
         p {
-            font-weight: bold;
-            font-size: 1.2em;
+            font-size: 1.1em;
+            color: #f0f0f0;
         }
         video {
             max-width: 100%;
             height: auto;
-            margin: 20px 0;
-            border: 5px solid #000000;
+            margin: 30px 0;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            background: #000;
         }
         .support-info {
             margin-top: 40px;
             background-color: #ffffff;
-            border: 3px solid #000000;
-            padding: 20px;
+            border-radius: 8px;
+            padding: 30px;
             display: inline-block;
-            width: 80%;
+            width: 85%;
             max-width: 600px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
         }
         .support-info h2 {
-            color: #0000ff;
-            -webkit-text-stroke: 1px #000000;
-            text-shadow: 1px 1px #000000;
+            color: #667eea;
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+        .support-info p {
+            color: #555;
         }
         a {
-            color: #007bff;
+            color: #667eea;
             text-decoration: none;
-            font-weight: bold;
+            font-weight: 600;
+            transition: color 0.3s ease;
         }
         a:hover {
-            text-decoration: underline;
+            color: #764ba2;
         }
         img {
-            border: 2px solid #000000;
+            border-radius: 4px;
         }
     </style>
 </head>
@@ -64,7 +70,7 @@
     <h1>IPTV Client Support</h1>
     <p>Watch the video below:</p>
     <video controls>
-        <source src="video.mp4" type="video/mp4">
+        <source src="assets/iptvs.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <div class="support-info">
